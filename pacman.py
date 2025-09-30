@@ -516,7 +516,7 @@ def move_player(play_x, play_y):
 
 # This is the main training loop.
 run = True
-total_episodes = 5000
+total_episodes = 10000
 for episode in range(total_episodes):
     state = reset_game_state()
     done = False
