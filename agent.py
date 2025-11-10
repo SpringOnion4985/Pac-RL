@@ -4,7 +4,7 @@ import os
 
 class QLearningAgent:
     # This class defines our AI agent.
-    def __init__(self, actions, epsilon=1.0, alpha=0.1, gamma=0.9, epsilon_decay=0.9995, min_epsilon=0.01):
+    def __init__(self, actions, epsilon=0.0, alpha=0.1, gamma=0.9, epsilon_decay=0,min_epsilon=0.01):
         self.actions = actions
         self.alpha = alpha              # Learning rate
         self.gamma = gamma              # Discount factor
